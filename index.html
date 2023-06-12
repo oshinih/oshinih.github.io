@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#service">PACKAGES</a></li>
+                    <li><a href="#portfolio">DESIGNS</a></li>
+                    <li><a href="#contact">CONTACT US</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+
+                <p>ZARA Clothing Brand</p>
+                <h1>Embrace the Extraordinary: Step into a World of Style with ZARA. Let Your Wardrobe Tell Your Unique Story.</h1>
+
+                
+            </div>
+        
+        </div>
+    </div>
+
+   
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="2.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Us.</h1>
+                    <p>Welcome to [Clothing Brand], where fashion meets passion. We are not just a clothing brand; we are a statement, a celebration of individuality, and an embodiment of confidence. At ZARA, we believe that clothing is a powerful form of self-expression that has the ability to transform how you feel and how you are perceived.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Dresses</p>
+                        <p class="tab-links" onclick="opentab('test1')">Active Wear</p>
+                        <p class="tab-links" onclick="opentab('test2')">Casual</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Quality</span><br>We provide you with maximum quality output.</li>
+                            <li><span>Value</span><br>Highest Quality to the lowest value.</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="test1">
+                        <ul>
+                            <li><span>Great Support</span><br>Best support to the biggest girls.</li>
+                            <li><span>Durability</span><br>For every day use.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="test2">
+                        <ul>
+                            <li><span>Comfortable</span><br>Like sleeping on a cloud.</li>
+                            <li><span>Stylish</span><br>With beauty that pleases the eyes</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+    <div id="service">
+        <div class="container">
+            <h1 class="sub-title">Packages</h1>
+            <div class="service-list">
+                <div>
+                    <h2>Party</h2>
+                    <p><ul><li>Weddings.</li><li>Casual</li><li>Formal</li></ul></p>
+                    <a href="#">learn more</a>
+                </div>
+
+                <div>
+                    <h2>Frocks</h2>
+                    <p><ul><li>Long</li><li>Short</li><li>Half&half</li></ul></p>
+                    <a href="#">learn more</a>
+                </div>
+
+                <div>
+                    <h2>Pants</h2>
+                    <p><ul><li>Denim</li><li>Office</li><li>Shorts</li></ul></p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Designs</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="4.jpg">
+                    <div class="layer">
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="5.jpg">
+                    <div class="layer">
+                        
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="6.jpg">
+                    <div class="layer">
+                        
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> zaraclothing@gmail.com</p>
+                    <p><i class="fas fa-phone-square"></i> 0117896542</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-twitter-square"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="name" required>
+                        <input type="email" name="email" placeholder="your email" required>
+                        <textarea name="Message" rows="6" placeholder="your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+	    <div id="slider">
+        <div class="slides">
+            <img src="4.jpg" alt="Slide 1">
+            <img src="5.jpg" alt="Slide 2">
+            <img src="6.jpg" alt="Slide 3">
+            <img src="7.jpg" alt="Slide 4">
+            <img src="8.jpg" alt="Slide 5">
+            <img src="9.jpg" alt="Slide 6">
+        </div>
+        <div class="controls">
+            <i class="fas fa-chevron-left" id="prevBtn"></i>
+            <i class="fas fa-chevron-right" id="nextBtn"></i>
+        </div>
+    </div>
+    
+   <button id="toggleButton">Toggle Additional Information</button>
+
+    <div id="additionalInfo" style="display: none;">
+        <h2>Additional Information</h2>
+        <p>All project are hand made and with the use of local product.All designs have been copyrighted and can not be SOLD without my acknowedgement.</p>
+    </div>
+
+        <div class="copyright">
+            <p>copyright</p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (var i = 0; i < tablinks.length; i++) {
+                tablinks[i].classList.remove("active-link");
+            }
+            for (var i = 0; i < tabcontents.length; i++) {
+                tabcontents[i].classList.remove("active-tab");
+            }
+            document.getElementById(tabname).classList.add("active-tab");
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+	
+
+        // Form validation
+        var form = document.querySelector("form");
+
+        form.addEventListener("submit", function (event) {
+            var nameInput = document.querySelector("input[name='Name']");
+            var emailInput = document.querySelector("input[name='email']");
+            var messageInput = document.querySelector("textarea[name='Message']");
+
+            var isValid = true;
+
+            // Validate name field
+            if (nameInput.value.trim() === "") {
+                isValid = false;
+                nameInput.classList.add("invalid");
+            } else {
+                nameInput.classList.remove("invalid");
+            }
+
+            // Validate email field
+            var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (emailInput.value.trim() === "" || !emailRegex.test(emailInput.value)) {
+                isValid = false;
+                emailInput.classList.add("invalid");
+            } else {
+                emailInput.classList.remove("invalid");
+            }
+
+            // Validate message field
+            if (messageInput.value.trim() === "") {
+                isValid = false;
+                messageInput.classList.add("invalid");
+            } else {
+                messageInput.classList.remove("invalid");
+            }
+
+            if (!isValid) {
+                event.preventDefault(); // Prevent form submission if invalid
+            }
+        });
+        }
+
+//smooth scrolling
+
+	function smoothScroll(target) {
+            const element = document.querySelector(target);
+            const position = element.offsetTop;
+
+            window.scrollTo({
+                top: position,
+                behavior: "smooth"
+            });
+        }
+//image sliding
+
+        var slideIndex = 0;
+        var slides = document.querySelectorAll(".slides img");
+        var prevBtn = document.getElementById("prevBtn");
+        var nextBtn = document.getElementById("nextBtn");
+
+        // Function to show slide
+        function showSlide(n) {
+            // Hide all slides
+            for (var i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+
+            // Wrap around slide index
+            if (n < 0) {
+                slideIndex = slides.length - 1;
+            } else if (n >= slides.length) {
+                slideIndex = 0;
+            }
+
+            // Show current slide
+            slides[slideIndex].style.display = "block";
+        }
+
+        // Function to navigate to the previous slide
+        function prevSlide() {
+            showSlide(slideIndex - 1);
+        }
+
+        // Function to navigate to the next slide
+        function nextSlide() {
+            showSlide(slideIndex + 1);
+        }
+
+        // Show initial slide
+        showSlide(slideIndex);
+
+        // Add event listeners to navigation buttons
+        prevBtn.addEventListener("click", prevSlide);
+        nextBtn.addEventListener("click", nextSlide);
+
+        // Automatically cycle through slides
+        setInterval(function () {
+            nextSlide();
+        }, 5000); // Change slide every 3 seconds (adjust as needed)
+
+	var toggleButton = document.getElementById("toggleButton");
+        var additionalInfo = document.getElementById("additionalInfo");
+
+        toggleButton.addEventListener("click", function() {
+            if (additionalInfo.style.display === "none") {
+                additionalInfo.style.display = "block";
+            } else {
+                additionalInfo.style.display = "none";
+            }
+        });
+    </script>
+</body>
+</html>
